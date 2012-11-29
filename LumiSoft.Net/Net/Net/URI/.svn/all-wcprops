@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/URI
+END
+AbsoluteUri.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/URI/AbsoluteUri.cs
+END
+TEL_Uri.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/URI/TEL_Uri.cs
+END
+UriSchemes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/URI/UriSchemes.cs
+END
+SIP_Uri.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/URI/SIP_Uri.cs
+END

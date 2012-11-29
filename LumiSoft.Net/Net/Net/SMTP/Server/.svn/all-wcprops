@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/71/trunk/Net/SMTP/Server
+END
+SMTP_e_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_e_Message.cs
+END
+SMTP_e_MessageStored.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_e_MessageStored.cs
+END
+SMTP_e_MailFrom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_e_MailFrom.cs
+END
+SMTP_e_Started.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/64/trunk/Net/SMTP/Server/SMTP_e_Started.cs
+END
+SMTP_RcptTo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/14/trunk/Net/SMTP/Server/SMTP_RcptTo.cs
+END
+SMTP_Reply.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_Reply.cs
+END
+SMTP_e_Ehlo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_e_Ehlo.cs
+END
+SMTP_e_RcptTo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Server/SMTP_e_RcptTo.cs
+END
+SMTP_Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/303/trunk/Net/SMTP/Server/SMTP_Session.cs
+END
+SMTP_MailFrom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/14/trunk/Net/SMTP/Server/SMTP_MailFrom.cs
+END
+SMTP_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/71/trunk/Net/SMTP/Server/SMTP_Server.cs
+END

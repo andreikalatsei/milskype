@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME
+END
+MailboxAddressCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MailboxAddressCollection.cs
+END
+AddressList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/AddressList.cs
+END
+ParametizedHeaderField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/ParametizedHeaderField.cs
+END
+ContentDisposition_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/ContentDisposition_enum.cs
+END
+MimeEntity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MimeEntity.cs
+END
+Address.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/Address.cs
+END
+Mime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/Mime.cs
+END
+HeaderField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/HeaderField.cs
+END
+HeaderFieldParameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/HeaderFieldParameter.cs
+END
+MimeEntityCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MimeEntityCollection.cs
+END
+MailboxAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MailboxAddress.cs
+END
+GroupAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/GroupAddress.cs
+END
+MediaType_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MediaType_enum.cs
+END
+MimeUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/MimeUtils.cs
+END
+HeaderFieldCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/HeaderFieldCollection.cs
+END
+HeaderFieldParameterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/HeaderFieldParameterCollection.cs
+END
+ContentTransferEncoding_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/MIME/ContentTransferEncoding_enum.cs
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/SMTP/Relay
+END
+Relay_SessionCompletedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Relay/Relay_SessionCompletedEventArgs.cs
+END
+Relay_QueueItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/15/trunk/Net/SMTP/Relay/Relay_QueueItem.cs
+END
+Relay_Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/273/trunk/Net/SMTP/Relay/Relay_Session.cs
+END
+Relay_Mode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Relay/Relay_Mode.cs
+END
+Relay_Queue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/15/trunk/Net/SMTP/Relay/Relay_Queue.cs
+END
+Relay_SmartHost.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/Relay/Relay_SmartHost.cs
+END
+Relay_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/SMTP/Relay/Relay_Server.cs
+END

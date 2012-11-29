@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/LumiSoft_Net/!svn/ver/54/trunk/Net/SIP/UA
+END
+SIP_UA_Call.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/UA/SIP_UA_Call.cs
+END
+SIP_UA_CallState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/54/trunk/Net/SIP/UA/SIP_UA_CallState.cs
+END
+SIP_UA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/54/trunk/Net/SIP/UA/SIP_UA.cs
+END
+SIP_UA_Call_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/54/trunk/Net/SIP/UA/SIP_UA_Call_EventArgs.cs
+END

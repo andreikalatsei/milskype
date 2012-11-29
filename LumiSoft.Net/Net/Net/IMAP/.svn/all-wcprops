@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/208/trunk/Net/IMAP
+END
+IMAP_r_u_LSub.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/224/trunk/Net/IMAP/IMAP_r_u_LSub.cs
+END
+IMAP_Search_Key.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/200/trunk/Net/IMAP/IMAP_Search_Key.cs
+END
+IMAP_Search_Key_Cc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Cc.cs
+END
+IMAP_Search_Key_Bcc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Bcc.cs
+END
+IMAP_r_u_Capability.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/132/trunk/Net/IMAP/IMAP_r_u_Capability.cs
+END
+IMAP_Search_Key_Flagged.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Flagged.cs
+END
+IMAP_r_u_Status.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/132/trunk/Net/IMAP/IMAP_r_u_Status.cs
+END
+IMAP_Search_Key_SentSince.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_SentSince.cs
+END
+IMAP_Search_Key_Unflagged.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Unflagged.cs
+END
+IMAP_Search_Key_Unseen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Unseen.cs
+END
+IMAP_Fetch_DataItem_Rfc822Text.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Rfc822Text.cs
+END
+IMAP_Search_Key_Not.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Not.cs
+END
+IMAP_MessageFlags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IMAP/IMAP_MessageFlags.cs
+END
+IMAP_Fetch_DataItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem.cs
+END
+IMAP_Search_Key_SeqSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/IMAP/IMAP_Search_Key_SeqSet.cs
+END
+IMAP_r_u_ListRights.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/142/trunk/Net/IMAP/IMAP_r_u_ListRights.cs
+END
+IMAP_r_u_Namespace.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/197/trunk/Net/IMAP/IMAP_r_u_Namespace.cs
+END
+IMAP_Search_Key_Deleted.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Deleted.cs
+END
+IMAP_Search_Key_Undeleted.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Undeleted.cs
+END
+IMAP_Quota_Entry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/119/trunk/Net/IMAP/IMAP_Quota_Entry.cs
+END
+IMAP_Search_Key_Old.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Old.cs
+END
+IMAP_Envelope.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/216/trunk/Net/IMAP/IMAP_Envelope.cs
+END
+IMAP_Search_Key_To.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_To.cs
+END
+IMAP_r_u_List.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/224/trunk/Net/IMAP/IMAP_r_u_List.cs
+END
+IMAP_Fetch_DataItem_Rfc822Size.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Rfc822Size.cs
+END
+IMAP_Fetch_DataItem_BodyPeek.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_BodyPeek.cs
+END
+IMAP_Search_Key_New.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_New.cs
+END
+IMAP_Search_Key_Seen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Seen.cs
+END
+IMAP_Search_Key_Lager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/200/trunk/Net/IMAP/IMAP_Search_Key_Lager.cs
+END
+IMAP_Search_Key_SentBefore.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_SentBefore.cs
+END
+IMAP_r_ServerStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/196/trunk/Net/IMAP/IMAP_r_ServerStatus.cs
+END
+IMAP_Search_Key_Subject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Subject.cs
+END
+IMAP_r_u_Quota.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/143/trunk/Net/IMAP/IMAP_r_u_Quota.cs
+END
+IMAP_Search_Key_Before.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Before.cs
+END
+IMAP_Search_Key_From.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_From.cs
+END
+IMAP_Search_Key_Undraft.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Undraft.cs
+END
+IMAP_Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/IMAP/IMAP_Utils.cs
+END
+IMAP_r.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/132/trunk/Net/IMAP/IMAP_r.cs
+END
+IMAP_r_u_QuotaRoot.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/143/trunk/Net/IMAP/IMAP_r_u_QuotaRoot.cs
+END
+IMAP_Search_Key_SentOn.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_SentOn.cs
+END
+IMAP_r_u_Acl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/140/trunk/Net/IMAP/IMAP_r_u_Acl.cs
+END
+IMAP_Search_Key_Unanswered.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Unanswered.cs
+END
+IMAP_Flags_SetType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/101/trunk/Net/IMAP/IMAP_Flags_SetType.cs
+END
+IMAP_Search_Key_On.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_On.cs
+END
+IMAP_r_u_MyRights.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/196/trunk/Net/IMAP/IMAP_r_u_MyRights.cs
+END
+IMAP_ACL_Flags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IMAP/IMAP_ACL_Flags.cs
+END
+IMAP_Namespace_Entry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/119/trunk/Net/IMAP/IMAP_Namespace_Entry.cs
+END
+IMAP_Search_Key_Or.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Or.cs
+END
+IMAP_Search_Key_Text.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Text.cs
+END
+IMAP_SequenceSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/IMAP/IMAP_SequenceSet.cs
+END
+IMAP_Fetch_DataItem_Rfc822.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Rfc822.cs
+END
+IMAP_Search_Key_Body.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Body.cs
+END
+IMAP_Search_Key_Since.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Since.cs
+END
+IMAP_Fetch_DataItem_BodyStructure.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_BodyStructure.cs
+END
+IMAP_Search_Key_Answered.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Answered.cs
+END
+IMAP_Fetch_DataItem_Flags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Flags.cs
+END
+IMAP_Search_Key_Recent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Recent.cs
+END
+IMAP_Fetch_DataItem_Body.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Body.cs
+END
+IMAP_Search_Key_Uid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/IMAP/IMAP_Search_Key_Uid.cs
+END
+IMAP_r_u_ServerStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/143/trunk/Net/IMAP/IMAP_r_u_ServerStatus.cs
+END
+IMAP_r_u_Expunge.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/132/trunk/Net/IMAP/IMAP_r_u_Expunge.cs
+END
+IMAP_Acl_Entry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/136/trunk/Net/IMAP/IMAP_Acl_Entry.cs
+END
+IMAP_Search_Key_Keyword.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Keyword.cs
+END
+IMAP_Search_Key_Unkeyword.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/IMAP/IMAP_Search_Key_Unkeyword.cs
+END
+IMAP_r_u.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/132/trunk/Net/IMAP/IMAP_r_u.cs
+END
+IMAP_Search_Key_Header.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Header.cs
+END
+IMAP_Search_Key_Group.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/194/trunk/Net/IMAP/IMAP_Search_Key_Group.cs
+END
+IMAP_Fetch_DataItem_InternalDate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_InternalDate.cs
+END
+IMAP_Search_Key_Smaller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/193/trunk/Net/IMAP/IMAP_Search_Key_Smaller.cs
+END
+IMAP_Search_Key_Draft.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/192/trunk/Net/IMAP/IMAP_Search_Key_Draft.cs
+END
+IMAP_Fetch_DataItem_Envelope.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Envelope.cs
+END
+IMAP_Fetch_DataItem_Rfc822Header.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Rfc822Header.cs
+END
+IMAP_Fetch_DataItem_BodyS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_BodyS.cs
+END
+IMAP_Fetch_DataItem_Uid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/153/trunk/Net/IMAP/IMAP_Fetch_DataItem_Uid.cs
+END

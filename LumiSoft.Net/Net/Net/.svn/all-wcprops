@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/LumiSoft_Net/!svn/ver/208/trunk/Net
+END
+Range_long.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/Range_long.cs
+END
+_AsyncResultState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_AsyncResultState.cs
+END
+AsyncOP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/AsyncOP.cs
+END
+Net.sln
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/LumiSoft_Net/!svn/ver/336/trunk/Net/Net.sln
+END
+CircleCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/CircleCollection.cs
+END
+ExceptionEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ExceptionEventArgs.cs
+END
+TimerEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/TimerEx.cs
+END
+HostEndPoint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/39/trunk/Net/HostEndPoint.cs
+END
+IPBindInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IPBindInfo.cs
+END
+Net.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/336/trunk/Net/Net.csproj
+END
+ParseException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ParseException.cs
+END
+StringReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/155/trunk/Net/StringReader.cs
+END
+BalanceMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/BalanceMode.cs
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/AssemblyInfo.cs
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/47/trunk/Net/license.txt
+END
+EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/EventArgs.cs
+END
+PortRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/PortRange.cs
+END
+KeyValueCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/74/trunk/Net/KeyValueCollection.cs
+END
+TextUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/337/trunk/Net/TextUtils.cs
+END
+Net_Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/291/trunk/Net/Net_Utils.cs
+END
+SslMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SslMode.cs
+END
+WellKnownPorts.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/WellKnownPorts.cs
+END
+BindInfoProtocol.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/BindInfoProtocol.cs
+END

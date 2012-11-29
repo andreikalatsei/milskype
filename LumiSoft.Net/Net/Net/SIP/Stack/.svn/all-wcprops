@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/SIP/Stack
+END
+SIP_DialogState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_DialogState.cs
+END
+SIP_Dialog_Subscribe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Dialog_Subscribe.cs
+END
+SIP_RequestLine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_RequestLine.cs
+END
+SIP_UA_RegistrationState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_UA_RegistrationState.cs
+END
+SIP_Dialog_Usage_Invite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/SIP/Stack/SIP_Dialog_Usage_Invite.cs
+END
+SIP_Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Methods.cs
+END
+SIP_TransportException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_TransportException.cs
+END
+SIP_ServerTransaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/321/trunk/Net/SIP/Stack/SIP_ServerTransaction.cs
+END
+SIP_Dialog_Invite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_Dialog_Invite.cs
+END
+SIP_TransactionLayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_TransactionLayer.cs
+END
+SIP_Dialog_Refer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SIP/Stack/SIP_Dialog_Refer.cs
+END
+SIP_Transaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Transaction.cs
+END
+SIP_TransactionState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/314/trunk/Net/SIP/Stack/SIP_TransactionState.cs
+END
+SIP_TransportLayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/SIP/Stack/SIP_TransportLayer.cs
+END
+SIP_StatusLine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_StatusLine.cs
+END
+SIP_Stack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_Stack.cs
+END
+SIP_StackState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/49/trunk/Net/SIP/Stack/SIP_StackState.cs
+END
+SIP_ResponseSentEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_ResponseSentEventArgs.cs
+END
+SIP_Flow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_Flow.cs
+END
+SIP_ResponseCodes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/269/trunk/Net/SIP/Stack/SIP_ResponseCodes.cs
+END
+SIP_TimerConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_TimerConstants.cs
+END
+SIP_RequestReceivedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_RequestReceivedEventArgs.cs
+END
+SIP_StatusCodeType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_StatusCodeType.cs
+END
+SIP_Dialog_Usage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/SIP/Stack/SIP_Dialog_Usage.cs
+END
+SIP_ResponseReceivedEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_ResponseReceivedEventArgs.cs
+END
+SIP_ClientTransaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/316/trunk/Net/SIP/Stack/SIP_ClientTransaction.cs
+END
+SIP_Dialog_Usage_Subscribe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/SIP/Stack/SIP_Dialog_Usage_Subscribe.cs
+END
+SIP_Hop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Hop.cs
+END
+SIP_Request.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Request.cs
+END
+SIP_RequestSender.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_RequestSender.cs
+END
+SIP_Transport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Transport.cs
+END
+SIP_Response.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Stack/SIP_Response.cs
+END
+SIP_Dialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Stack/SIP_Dialog.cs
+END
+SIP_UA_Registration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/150/trunk/Net/SIP/Stack/SIP_UA_Registration.cs
+END

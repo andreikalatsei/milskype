@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/LumiSoft_Net/!svn/ver/32/trunk/Net/ABNF
+END
+ABNF_Concatenation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Concatenation.cs
+END
+ABNF_HexVal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_HexVal.cs
+END
+ABNF_Rule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Rule.cs
+END
+ABNF_Option.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Option.cs
+END
+ABNF_RuleName.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_RuleName.cs
+END
+ABNF_Element.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Element.cs
+END
+ABNF_BinVal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_BinVal.cs
+END
+ABNF_ProseVal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_ProseVal.cs
+END
+ABFN_Group.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABFN_Group.cs
+END
+ABNF_DecVal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/32/trunk/Net/ABNF/ABNF_DecVal.cs
+END
+ABFN.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABFN.cs
+END
+ABNF_Alternation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Alternation.cs
+END
+ABNF_CharVal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_CharVal.cs
+END
+ABNF_Repetition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/ABNF/ABNF_Repetition.cs
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/77/trunk/Net/Media
+END
+AudioIn_RTP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/330/trunk/Net/Media/AudioIn_RTP.cs
+END
+AudioOut_RTP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/319/trunk/Net/Media/AudioOut_RTP.cs
+END
+WavePlayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/324/trunk/Net/Media/WavePlayer.cs
+END
+AudioIn.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/313/trunk/Net/Media/AudioIn.cs
+END
+AudioInDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Media/AudioInDevice.cs
+END
+_WaveIn.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/329/trunk/Net/Media/_WaveIn.cs
+END
+AudioOut.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/313/trunk/Net/Media/AudioOut.cs
+END
+AudioOutDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Media/AudioOutDevice.cs
+END
+AudioFormat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/309/trunk/Net/Media/AudioFormat.cs
+END

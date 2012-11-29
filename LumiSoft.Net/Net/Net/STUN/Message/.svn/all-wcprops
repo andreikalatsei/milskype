@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/STUN/Message
+END
+STUN_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/STUN/Message/STUN_Message.cs
+END
+STUN_MessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/STUN/Message/STUN_MessageType.cs
+END
+STUN_t_ErrorCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/STUN/Message/STUN_t_ErrorCode.cs
+END
+STUN_t_ChangeRequest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/STUN/Message/STUN_t_ChangeRequest.cs
+END

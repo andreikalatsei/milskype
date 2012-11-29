@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LumiSoft_Net/!svn/ver/112/trunk/Net/SIP/Proxy
+END
+SIP_Registrar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/283/trunk/Net/SIP/Proxy/SIP_Registrar.cs
+END
+SIP_ForkingMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_ForkingMode.cs
+END
+SIP_Presence.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_Presence.cs
+END
+SIP_RegistrationBinding.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_RegistrationBinding.cs
+END
+SIP_Registration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_Registration.cs
+END
+SIP_ProxyHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SIP/Proxy/SIP_ProxyHandler.cs
+END
+SIP_Proxy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Proxy/SIP_Proxy.cs
+END
+SIP_B2BUA_Call.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_B2BUA_Call.cs
+END
+SIP_ProxyContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Proxy/SIP_ProxyContext.cs
+END
+SIP_ProxyMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_ProxyMode.cs
+END
+SIP_RegistrationCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_RegistrationCollection.cs
+END
+SIP_ProxyTarget.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/12/trunk/Net/SIP/Proxy/SIP_ProxyTarget.cs
+END
+SIP_RegistrationEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_RegistrationEventArgs.cs
+END
+SIP_B2BUA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/12/trunk/Net/SIP/Proxy/SIP_B2BUA.cs
+END
+SIP_RequestContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/12/trunk/Net/SIP/Proxy/SIP_RequestContext.cs
+END
+SIP_AuthenticateEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Proxy/SIP_AuthenticateEventArgs.cs
+END

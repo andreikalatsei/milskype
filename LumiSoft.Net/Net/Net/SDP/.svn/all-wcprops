@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SDP
+END
+SDP_Origin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SDP/SDP_Origin.cs
+END
+SDP_Time.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SDP/SDP_Time.cs
+END
+SDP_Connection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/45/trunk/Net/SDP/SDP_Connection.cs
+END
+SDP_Attribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SDP/SDP_Attribute.cs
+END
+SDP_MediaDescription.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/323/trunk/Net/SDP/SDP_MediaDescription.cs
+END
+SDP_MediaTypes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/SDP/SDP_MediaTypes.cs
+END
+SDP_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/322/trunk/Net/SDP/SDP_Message.cs
+END

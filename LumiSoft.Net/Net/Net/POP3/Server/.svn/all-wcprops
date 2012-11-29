@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LumiSoft_Net/!svn/ver/134/trunk/Net/POP3/Server
+END
+POP3_e_Started.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/133/trunk/Net/POP3/Server/POP3_e_Started.cs
+END
+POP3_ServerMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_ServerMessage.cs
+END
+POP3_e_DeleteMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_e_DeleteMessage.cs
+END
+AuthUser_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/POP3/Server/AuthUser_EventArgs.cs
+END
+POP3_e_GetTopOfMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_e_GetTopOfMessage.cs
+END
+POP3_e_Authenticate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_e_Authenticate.cs
+END
+POP3_Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/302/trunk/Net/POP3/Server/POP3_Session.cs
+END
+POP3_e_GetMessageStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_e_GetMessageStream.cs
+END
+POP3_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_Server.cs
+END
+POP3_e_GetMessagesInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/79/trunk/Net/POP3/Server/POP3_e_GetMessagesInfo.cs
+END

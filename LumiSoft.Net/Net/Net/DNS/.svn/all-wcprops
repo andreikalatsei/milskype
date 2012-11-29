@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/LumiSoft_Net/!svn/ver/206/trunk/Net/DNS
+END
+DNS_rr_PTR.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_PTR.cs
+END
+DNS_rr_SRV.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_SRV.cs
+END
+DNS_rr_TXT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_TXT.cs
+END
+DNS_rr_NS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_NS.cs
+END
+DNS_rr_A.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_A.cs
+END
+DNS_rr.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr.cs
+END
+DNS_rr_SOA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_SOA.cs
+END
+DNS_rr_CNAME.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_CNAME.cs
+END
+DNS_rr_AAAA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_AAAA.cs
+END
+DNS_QClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/37/trunk/Net/DNS/DNS_QClass.cs
+END
+DNS_rr_NAPTR.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_NAPTR.cs
+END
+DNS_rr_MX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_MX.cs
+END
+DNS_rr_SPF.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_SPF.cs
+END
+DNS_RCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/37/trunk/Net/DNS/DNS_RCode.cs
+END
+DNS_QType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/202/trunk/Net/DNS/DNS_QType.cs
+END
+DNS_Query.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/37/trunk/Net/DNS/DNS_Query.cs
+END
+DNS_rr_HINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/334/trunk/Net/DNS/DNS_rr_HINFO.cs
+END

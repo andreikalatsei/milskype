@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/POP3/Client
+END
+POP3_ClientException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/POP3/Client/POP3_ClientException.cs
+END
+POP3_Client.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/POP3/Client/POP3_Client.cs
+END
+POP3_ClientMessageCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/POP3/Client/POP3_ClientMessageCollection.cs
+END
+POP3_ClientMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/POP3/Client/POP3_ClientMessage.cs
+END

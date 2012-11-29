@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/206/trunk/Net/DNS/Client
+END
+DNS_ClientException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/DNS/Client/DNS_ClientException.cs
+END
+DNS_Client.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/338/trunk/Net/DNS/Client/DNS_Client.cs
+END
+DnsCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/DNS/Client/DnsCache.cs
+END
+_OPCODE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/DNS/Client/_OPCODE.cs
+END
+DNS_ClientTransaction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/338/trunk/Net/DNS/Client/DNS_ClientTransaction.cs
+END
+DNS_ClientTransactionState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LumiSoft_Net/!svn/ver/338/trunk/Net/DNS/Client/DNS_ClientTransactionState.cs
+END
+DnsServerResponse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/206/trunk/Net/DNS/Client/DnsServerResponse.cs
+END

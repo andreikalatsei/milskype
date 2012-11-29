@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/LumiSoft_Net/!svn/ver/110/trunk/Net/vCard
+END
+EmailAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/EmailAddress.cs
+END
+Item.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LumiSoft_Net/!svn/ver/42/trunk/Net/vCard/Item.cs
+END
+PhoneNumberCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/PhoneNumberCollection.cs
+END
+DeliveryAddressType_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/DeliveryAddressType_enum.cs
+END
+vCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/285/trunk/Net/vCard/vCard.cs
+END
+Name.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/Name.cs
+END
+PhoneNumber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/PhoneNumber.cs
+END
+EmailAddressType_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/EmailAddressType_enum.cs
+END
+DeliveryAddressCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/DeliveryAddressCollection.cs
+END
+PhoneNumberType_enum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/PhoneNumberType_enum.cs
+END
+DeliveryAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/DeliveryAddress.cs
+END
+EmailAddressCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/EmailAddressCollection.cs
+END
+ItemCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/vCard/ItemCollection.cs
+END

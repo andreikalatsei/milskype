@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LumiSoft_Net/!svn/ver/201/trunk/Net/IMAP/Client
+END
+IMAP_Client_FetchHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/LumiSoft_Net/!svn/ver/121/trunk/Net/IMAP/Client/IMAP_Client_FetchHandler.cs
+END
+IMAP_Client_Fetch_Body_EArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LumiSoft_Net/!svn/ver/119/trunk/Net/IMAP/Client/IMAP_Client_Fetch_Body_EArgs.cs
+END
+IMAP_ClientException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/125/trunk/Net/IMAP/Client/IMAP_ClientException.cs
+END
+IMAP_Client.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/313/trunk/Net/IMAP/Client/IMAP_Client.cs
+END
+IMAP_Client_Fetch_Rfc822_EArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LumiSoft_Net/!svn/ver/119/trunk/Net/IMAP/Client/IMAP_Client_Fetch_Rfc822_EArgs.cs
+END
+IMAP_Client_SelectedFolder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/LumiSoft_Net/!svn/ver/119/trunk/Net/IMAP/Client/IMAP_Client_SelectedFolder.cs
+END

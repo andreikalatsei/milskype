@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LumiSoft_Net/!svn/ver/56/trunk/Net/SIP/Message
+END
+SIP_t_LanguageTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_LanguageTag.cs
+END
+SIP_t_RAck.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_RAck.cs
+END
+SIP_t_Challenge.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Challenge.cs
+END
+SIP_MultiValueHF.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_MultiValueHF.cs
+END
+SIP_t_To.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_To.cs
+END
+SIP_t_EventType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_EventType.cs
+END
+SIP_t_Language.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Language.cs
+END
+SIP_t_SessionExpires.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_SessionExpires.cs
+END
+SIP_HeaderFieldCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_HeaderFieldCollection.cs
+END
+SIP_t_SubscriptionState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_SubscriptionState.cs
+END
+SIP_t_CallID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_CallID.cs
+END
+SIP_t_CSeq.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_CSeq.cs
+END
+SIP_t_AuthenticationInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_AuthenticationInfo.cs
+END
+SIP_t_Info.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Info.cs
+END
+SIP_Parameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_Parameter.cs
+END
+SIP_t_RValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_RValue.cs
+END
+SIP_t_Join.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Join.cs
+END
+SIP_t_SecMechanism.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_SecMechanism.cs
+END
+SIP_WarningCodes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_WarningCodes.cs
+END
+SIP_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_Message.cs
+END
+SIP_t_RCValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_RCValue.cs
+END
+SIP_t_From.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_From.cs
+END
+SIP_OptionTags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_OptionTags.cs
+END
+SIP_t_OptionTag.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_OptionTag.cs
+END
+SIP_t_IdentityInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_IdentityInfo.cs
+END
+SIP_MVGroupHFCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_MVGroupHFCollection.cs
+END
+SIP_t_AddressParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_AddressParam.cs
+END
+SIP_t_TargetDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_TargetDialog.cs
+END
+SIP_HeaderField.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_HeaderField.cs
+END
+SIP_t_MinSE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_MinSE.cs
+END
+SIP_SVGroupHFCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_SVGroupHFCollection.cs
+END
+SIP_t_ReferSub.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ReferSub.cs
+END
+SIP_t_Directive.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Directive.cs
+END
+SIP_t_ACValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ACValue.cs
+END
+SIP_t_Method.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Method.cs
+END
+SIP_t_Event.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Event.cs
+END
+SIP_t_HiEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_HiEntry.cs
+END
+SIP_t_ReasonValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ReasonValue.cs
+END
+SIP_t_Encoding.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Encoding.cs
+END
+SIP_t_NameAddress.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/56/trunk/Net/SIP/Message/SIP_t_NameAddress.cs
+END
+SIP_t_RetryAfter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_RetryAfter.cs
+END
+SIP_t_AlertParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_AlertParam.cs
+END
+SIP_t_ReferredBy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ReferredBy.cs
+END
+SIP_t_Credentials.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Credentials.cs
+END
+SIP_t_ContentCoding.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ContentCoding.cs
+END
+SIP_t_Replaces.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Replaces.cs
+END
+SIP_t_ContentDisposition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ContentDisposition.cs
+END
+SIP_t_ViaParm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ViaParm.cs
+END
+SIP_t_WarningValue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_WarningValue.cs
+END
+SIP_t_Timestamp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Timestamp.cs
+END
+SIP_ParseException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_ParseException.cs
+END
+SIP_t_ErrorUri.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ErrorUri.cs
+END
+SIP_ParameterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_ParameterCollection.cs
+END
+SIP_SingleValueHF.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_SingleValueHF.cs
+END
+SIP_t_ContactParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_ContactParam.cs
+END
+SIP_t_AcceptRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_AcceptRange.cs
+END
+SIP_t_Value.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SIP/Message/SIP_t_Value.cs
+END
+SIP_t_ValueWithParams.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/339/trunk/Net/SIP/Message/SIP_t_ValueWithParams.cs
+END

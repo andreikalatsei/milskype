@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/155/trunk/Net/MIME
+END
+MIME_b_SinglepartBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/250/trunk/Net/MIME/MIME_b_SinglepartBase.cs
+END
+MIME_h_ContentDisposition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/262/trunk/Net/MIME/MIME_h_ContentDisposition.cs
+END
+MIME_b_Video.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Video.cs
+END
+MIME_b_MultipartSigned.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/275/trunk/Net/MIME/MIME_b_MultipartSigned.cs
+END
+MIME_Entity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/263/trunk/Net/MIME/MIME_Entity.cs
+END
+MIME_b_MultipartReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartReport.cs
+END
+MIME_TransferEncodings.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/MIME/MIME_TransferEncodings.cs
+END
+MIME_b_MultipartAlternative.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartAlternative.cs
+END
+MIME_b.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b.cs
+END
+MIME_b_Multipart.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/266/trunk/Net/MIME/MIME_b_Multipart.cs
+END
+MIME_b_MultipartRelated.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartRelated.cs
+END
+MIME_h.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/MIME/MIME_h.cs
+END
+MIME_b_MessageDeliveryStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/LumiSoft_Net/!svn/ver/313/trunk/Net/MIME/MIME_b_MessageDeliveryStatus.cs
+END
+MIME_Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/130/trunk/Net/MIME/MIME_Utils.cs
+END
+MIME_b_MultipartFormData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/318/trunk/Net/MIME/MIME_b_MultipartFormData.cs
+END
+MIME_b_MultipartEncrypted.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartEncrypted.cs
+END
+MIME_b_Audio.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Audio.cs
+END
+MIME_h_Collection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/MIME/MIME_h_Collection.cs
+END
+MIME_Encoding_EncodedWord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/243/trunk/Net/MIME/MIME_Encoding_EncodedWord.cs
+END
+MIME_h_ParameterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/270/trunk/Net/MIME/MIME_h_ParameterCollection.cs
+END
+MIME_EncodedWordEncoding.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/MIME/MIME_EncodedWordEncoding.cs
+END
+MIME_MediaTypes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/254/trunk/Net/MIME/MIME_MediaTypes.cs
+END
+MIME_b_Application.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Application.cs
+END
+MIME_b_MultipartMixed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartMixed.cs
+END
+MIME_b_MessageRfc822.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MessageRfc822.cs
+END
+MIME_h_Unstructured.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/218/trunk/Net/MIME/MIME_h_Unstructured.cs
+END
+MIME_b_MultipartDigest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_MultipartDigest.cs
+END
+MIME_b_Image.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Image.cs
+END
+MIME_h_ContentType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/245/trunk/Net/MIME/MIME_h_ContentType.cs
+END
+MIME_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/313/trunk/Net/MIME/MIME_Message.cs
+END
+MIME_b_ApplicationPkcs7Mime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/264/trunk/Net/MIME/MIME_b_ApplicationPkcs7Mime.cs
+END
+MIME_b_Text.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Text.cs
+END
+MIME_b_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Message.cs
+END
+MIME_h_Parameter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/MIME/MIME_h_Parameter.cs
+END
+MIME_EntityCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/15/trunk/Net/MIME/MIME_EntityCollection.cs
+END
+MIME_h_Unparsed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/MIME/MIME_h_Unparsed.cs
+END
+MIME_DispositionTypes .cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/MIME/MIME_DispositionTypes%20.cs
+END
+MIME_b_Provider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/259/trunk/Net/MIME/MIME_b_Provider.cs
+END
+MIME_b_MultipartParallel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/LumiSoft_Net/!svn/ver/255/trunk/Net/MIME/MIME_b_MultipartParallel.cs
+END
+MIME_b_Unknown.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/233/trunk/Net/MIME/MIME_b_Unknown.cs
+END
+MIME_h_Provider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/146/trunk/Net/MIME/MIME_h_Provider.cs
+END
+MIME_Reader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/244/trunk/Net/MIME/MIME_Reader.cs
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/144/trunk/Net/Mail
+END
+Mail_t_MailboxList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/230/trunk/Net/Mail/Mail_t_MailboxList.cs
+END
+Mail_h_Received.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/Mail/Mail_h_Received.cs
+END
+Mail_h_DispositionNotificationOptions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/Mail/Mail_h_DispositionNotificationOptions.cs
+END
+Mail_h_MailboxList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/232/trunk/Net/Mail/Mail_h_MailboxList.cs
+END
+Mail_t_Mailbox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/13/trunk/Net/Mail/Mail_t_Mailbox.cs
+END
+Mail_t_Group.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/7/trunk/Net/Mail/Mail_t_Group.cs
+END
+Mail_Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Mail/Mail_Utils.cs
+END
+Mail_h_Mailbox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/Mail/Mail_h_Mailbox.cs
+END
+Mail_h_ReturnPath.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/209/trunk/Net/Mail/Mail_h_ReturnPath.cs
+END
+Mail_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/293/trunk/Net/Mail/Mail_Message.cs
+END
+Mail_t_AddressList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/230/trunk/Net/Mail/Mail_t_AddressList.cs
+END
+Mail_t_TcpInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Mail/Mail_t_TcpInfo.cs
+END
+Mail_h_AddressList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/231/trunk/Net/Mail/Mail_h_AddressList.cs
+END
+Mail_t_Address.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Mail/Mail_t_Address.cs
+END

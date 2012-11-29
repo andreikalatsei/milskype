@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav
+END
+WebDav_p_Default.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/WebDav/WebDav_p_Default.cs
+END
+WebDav_p_ResourceType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav/WebDav_p_ResourceType.cs
+END
+WebDav_PropStat.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav/WebDav_PropStat.cs
+END
+WebDav_ResourceTypes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/WebDav/WebDav_ResourceTypes.cs
+END
+WebDav_MultiStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav/WebDav_MultiStatus.cs
+END
+WebDav_Response.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav/WebDav_Response.cs
+END
+WebDav_p.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/WebDav/WebDav_p.cs
+END
+WebDav_Prop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/6/trunk/Net/WebDav/WebDav_Prop.cs
+END

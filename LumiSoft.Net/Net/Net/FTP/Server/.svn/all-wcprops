@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LumiSoft_Net/!svn/ver/38/trunk/Net/FTP/Server
+END
+FTP_Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/332/trunk/Net/FTP/Server/FTP_Session.cs
+END
+AuthUser_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/FTP/Server/AuthUser_EventArgs.cs
+END
+FileSysEntry_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/FTP/Server/FileSysEntry_EventArgs.cs
+END
+FTP_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/331/trunk/Net/FTP/Server/FTP_Server.cs
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/FTP/Server/readme.txt
+END

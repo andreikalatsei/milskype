@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/UDP
+END
+UDP_ProcessMode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/UDP/UDP_ProcessMode.cs
+END
+UDP_PacketEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/UDP/UDP_PacketEventArgs.cs
+END
+UDP_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/46/trunk/Net/UDP/UDP_Server.cs
+END
+UDP_DataReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/335/trunk/Net/UDP/UDP_DataReceiver.cs
+END
+UDP_e_PacketReceived.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/335/trunk/Net/UDP/UDP_e_PacketReceived.cs
+END

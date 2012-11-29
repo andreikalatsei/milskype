@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/SMTP
+END
+SMTP_DSN_Notify.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/14/trunk/Net/SMTP/SMTP_DSN_Notify.cs
+END
+SMTP_DSN_Ret.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LumiSoft_Net/!svn/ver/14/trunk/Net/SMTP/SMTP_DSN_Ret.cs
+END
+SMTP_t_Mailbox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/SMTP_t_Mailbox.cs
+END
+SMTP_ServiceExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/SMTP_ServiceExtensions.cs
+END
+SMTP_Utils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/SMTP/SMTP_Utils.cs
+END
