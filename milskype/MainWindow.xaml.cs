@@ -53,6 +53,8 @@ namespace milskype
         
         public ObservableCollection<string> History { get; private set; }
         public ObservableCollection<IPAddress> LocalIpList { get; private set; }
+        public ObservableCollection<AudioInDevice> AudioInDeviceList { get; private set; }
+        public ObservableCollection<AudioOutDevice> AudioOutDeviceList { get; private set; }
 
         public static readonly DependencyProperty IsConnectedProperty = DependencyProperty.Register("IsConnected", typeof(bool), typeof(MainWindow));
         public bool IsConnected
@@ -74,30 +76,51 @@ namespace milskype
             lbHistory.DataContext = this;
             cbLocalIp.DataContext = this;
             btnCall.DataContext = this;
+            cbAudioInDevices.DataContext = this;
+            cbAudioOutDevices.DataContext = this;
 
             History = new ObservableCollection<string>();
-            UpdateLocalIpList();
+            Refresh();
+
             IsConnected = false;
 
             Closing += (s, e) =>
             {
                 //StopSoundReceiver();
                // StopSoundSender();
-                d_RecieveStream.Dispatcher.InvokeShutdown();
-                d_SendStream.Dispatcher.InvokeShutdown();
+                if (d_RecieveStream != null)
+                    d_RecieveStream.Dispatcher.InvokeShutdown();
 
-                m_pAudioInRTP.Dispose();
-                m_pSendStream.Close();
+                if (d_SendStream != null)
+                    d_SendStream.Dispatcher.InvokeShutdown();
 
-                m_pAudioOut.Dispose();
+                if (m_pAudioInRTP != null)
+                    m_pAudioInRTP.Dispose();
 
-                m_pRtpSession.Dispose();
+                if (m_pSendStream != null)
+                    m_pSendStream.Close();
+
+                if (m_pAudioOut != null)
+                    m_pAudioOut.Dispose();
+
+                if (m_pRtpSession != null)
+                    m_pRtpSession.Dispose();
+
                 StopMessageServer();
                             
                                
             };
         }
 
+        /// <summary>
+        /// Refreshes audio in/out devices lists and local ip list
+        /// </summary>
+        private void Refresh()
+        {
+            AudioInDeviceList = new ObservableCollection<AudioInDevice>(AudioIn.Devices);
+            AudioOutDeviceList = new ObservableCollection<AudioOutDevice>(AudioOut.Devices);
+            LocalIpList = new ObservableCollection<IPAddress>(Dns.GetHostAddresses(Dns.GetHostName()));
+        }
 
         private void StopMessageServer()
         {
@@ -140,11 +163,6 @@ namespace milskype
             var ipParts = tbxPartnerIp.Text.Split('.').
                 Select(t => Byte.Parse(t));
             _client = new Client<string>(new IPAddress(ipParts.ToArray()), 15000);
-        }
-
-        private void UpdateLocalIpList()
-        {
-            LocalIpList = new ObservableCollection<IPAddress>(Dns.GetHostAddresses(Dns.GetHostName()));
         }
 
         private void SendMessage(string message)
@@ -226,7 +244,8 @@ namespace milskype
                 m_IsRunning = true;
                 m_pActiveCodec = new PCMU();
                 
-                m_pWaveOut = new AudioOut(AudioOut.Devices.First(), 8000, 16, 1);
+                var selectedOutDevice = cbAudioOutDevices.SelectedItem as AudioOutDevice;
+                m_pWaveOut = new AudioOut(selectedOutDevice, 8000, 16, 1);
 
                 m_pRtpSession = new RTP_MultimediaSession(RTP_Utils.GenerateCNAME());
 
@@ -260,7 +279,8 @@ namespace milskype
             {
                 /*wfrm_Receive frm = new wfrm_Receive(e.Stream, m_pAudioCodecs);
                 frm.Show();*/
-                m_pAudioOut = new AudioOut_RTP(AudioOut.Devices.First(), e.Stream, m_pAudioCodecs);
+                var selectedOutDevice = cbAudioOutDevices.SelectedItem as AudioOutDevice;
+                m_pAudioOut = new AudioOut_RTP(selectedOutDevice, e.Stream, m_pAudioCodecs);
                 m_pAudioOut.Start();
             }));
         }
@@ -278,7 +298,8 @@ namespace milskype
         {
             d_SendStream = Dispatcher.BeginInvoke(new Action(delegate()
             {
-                m_pAudioInRTP = new AudioIn_RTP(AudioIn.Devices.First(), 20, m_pAudioCodecs, m_pSendStream);
+                var selectedInDevice = cbAudioInDevices.SelectedItem as AudioInDevice;
+                m_pAudioInRTP = new AudioIn_RTP(selectedInDevice, 20, m_pAudioCodecs, m_pSendStream);
                 m_pAudioInRTP.Start();
             }));
         }
