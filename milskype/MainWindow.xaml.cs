@@ -82,6 +82,9 @@ namespace milskype
             History = new ObservableCollection<string>();
             Refresh();
 
+            cbAudioInDevices.SelectedIndex = 0;
+            cbAudioOutDevices.SelectedIndex = 0;
+
             IsConnected = false;
 
             Closing += (s, e) =>
@@ -242,19 +245,22 @@ namespace milskype
             else
             {
                 m_IsRunning = true;
-                m_pActiveCodec = new PCMU();
+                m_pActiveCodec = new PCMA();
                 
                 var selectedOutDevice = cbAudioOutDevices.SelectedItem as AudioOutDevice;
                 m_pWaveOut = new AudioOut(selectedOutDevice, 8000, 16, 1);
 
                 m_pRtpSession = new RTP_MultimediaSession(RTP_Utils.GenerateCNAME());
 
-                //TODO: get ip from form. Now you should change ports on partners side.
-                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)11000/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/11000 + 1), new RTP_Clock(0, 8000));
-                m_pRtpSession.Sessions[0].AddTarget(new RTP_Address(IPAddress.Parse(tbxPartnerIp.Text), (int)/*m_pRemotePort.Value*/10000, (int)/*m_pRemotePort.Value*/10000 + 1));
+                string localIp = cbLocalIp.SelectedItem.ToString();
+                string partnerIp = tbxPartnerIp.Text;
+                int k = string.Compare(localIp, partnerIp);
+
+                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)10000 + k * 500/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/11000 + k * 500 + 1), new RTP_Clock(0, 8000));
+                m_pRtpSession.Sessions[0].AddTarget(new RTP_Address(IPAddress.Parse(tbxPartnerIp.Text), (int)/*m_pRemotePort.Value*/10000 - k * 500, (int)/*m_pRemotePort.Value*/10000 - k * 500 + 1));
                 m_pRtpSession.Sessions[0].NewSendStream += new EventHandler<RTP_SendStreamEventArgs>(m_pRtpSession_NewSendStream);
                 m_pRtpSession.Sessions[0].NewReceiveStream += new EventHandler<RTP_ReceiveStreamEventArgs>(m_pRtpSession_NewReceiveStream);
-                m_pRtpSession.Sessions[0].Payload = 8;
+                m_pRtpSession.Sessions[0].Payload = 0;
                 m_pRtpSession.Sessions[0].Start();
 
                 m_pAudioCodecs = new Dictionary<int, AudioCodec>();
