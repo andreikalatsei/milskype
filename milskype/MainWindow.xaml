@@ -1,15 +1,15 @@
 ﻿<Window x:Class="milskype.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Name="wndMain"
-        Title="Connectivity test" Height="600" Width="600">
+        Name="wndMain" Title="Connectivity test" Height="600" Width="600"
+        Closing="wndMain_Closing_1">
     <Window.Resources>
         <ResourceDictionary Source="Resources.xaml"/>
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="3*" />
-            <RowDefinition />
+            <RowDefinition Height="Auto"/>
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
@@ -19,45 +19,48 @@
             </Grid.RowDefinitions>
             <ListBox x:Name="lbHistory" Grid.Row="0" ItemsSource="{Binding History}" BorderThickness="3" BorderBrush="Aquamarine"/>
             <TextBox x:Name="tbxMessage" Grid.Row="1" TextWrapping="Wrap" BorderThickness="3" BorderBrush="Aquamarine"/>
-        </Grid>
-        <Viewbox Grid.Row="1">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" Orientation="Horizontal">
-                        <TextBlock Text="Partner" VerticalAlignment="Center"/>
-                        <TextBox x:Name="tbxPartnerIp" Text="192.168.1.2" Margin="5"/>
-                    </StackPanel>
-                    <StackPanel Grid.Column="1" Orientation="Horizontal">
-                        <TextBlock Text="Local" VerticalAlignment="Center"/>
-                        <ComboBox x:Name="cbLocalIp" Width="120" ItemsSource="{Binding LocalIpList}" Margin="5"/>
-                    </StackPanel>
-                    <Button Grid.Column="2" x:Name="btnRestartConnection" Content="Start" Click="btnRestartConnection_Click_1" Margin="5"/>
-                </Grid>
-                <Grid Grid.Row="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                        <ColumnDefinition />                        
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Grid.Column="0" Orientation="Horizontal">
-                        <ComboBox x:Name="cbAudioInDevices" Width="150" Margin="5" 
+        </Grid>        
+        <Expander Grid.Row="1">
+            <Viewbox>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                            <TextBlock Text="Partner" VerticalAlignment="Center"/>
+                            <TextBox x:Name="tbxPartnerIp" Margin="5"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <TextBlock Text="Local" VerticalAlignment="Center"/>
+                            <ComboBox x:Name="cbLocalIp" Width="120" ItemsSource="{Binding LocalIpList}" Margin="5"/>
+                        </StackPanel>
+                        <Button Grid.Column="2" x:Name="btnRestartConnection" Content="Start" Click="btnRestartConnection_Click_1" Margin="5"/>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Orientation="Horizontal">
+                            <ComboBox x:Name="cbAudioInDevices" Width="150" Margin="5" 
                                   ItemsSource="{Binding AudioInDeviceList}" ItemTemplate="{StaticResource AudioComboBoxDataTemplate}"/>
-                    </StackPanel>
-                    <StackPanel Grid.Column="1" Orientation="Horizontal">
-                        <ComboBox x:Name="cbAudioOutDevices" Width="150" Margin="5" 
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <ComboBox x:Name="cbAudioOutDevices" Width="150" Margin="5" 
                                   ItemsSource="{Binding AudioOutDeviceList}" ItemTemplate="{StaticResource AudioComboBoxDataTemplate}"/>
-                    </StackPanel>
+                        </StackPanel>
+                    </Grid>
                 </Grid>
-            </Grid>
-        </Viewbox>
+            </Viewbox>
+        </Expander>            
+        
         <Viewbox Grid.Row="2">
             <WrapPanel>
                 <Button x:Name="btnSendMessage" Content="Send" Click="btnSendMessage_Click_1" Margin="5"/>

@@ -22,6 +22,7 @@ using LumiSoft.Net.RTP;
 using LumiSoft.Net.RTP.Debug;
 using LumiSoft.Net.Media.Codec.Audio;
 using LumiSoft.Net.Media;
+using System.Configuration;
 
 namespace milskype
 {
@@ -32,7 +33,6 @@ namespace milskype
     {
         private Server<string> _server;
         private Client<string> _client;
-
 
         private bool m_IsRunning = false;
         private bool m_IsSendingTest = false;
@@ -49,6 +49,12 @@ namespace milskype
         private RTP_SendStream m_pSendStream = null;
         DispatcherOperation d_SendStream = null;
         DispatcherOperation d_RecieveStream = null;
+
+        private int _samplesPerSecond;  // 8000, 22500, 44100, 48000 kHz
+        private int _bitsPerSample;     // 16 or 8 bit
+        private int _portBase;          // base port
+        private int _portDifference;    // differrence between base port and input/output ports
+        private string _selectedCodec;  // selected codec - PCMU or PCMA
 
         
         public ObservableCollection<string> History { get; private set; }
@@ -85,34 +91,53 @@ namespace milskype
             cbAudioInDevices.SelectedIndex = 0;
             cbAudioOutDevices.SelectedIndex = 0;
 
+            Loaded += (s, e) =>
+                {
+                    LoadSettings();
+                };
+
             IsConnected = false;
+        }
 
-            Closing += (s, e) =>
-            {
-                //StopSoundReceiver();
-               // StopSoundSender();
-                if (d_RecieveStream != null)
-                    d_RecieveStream.Dispatcher.InvokeShutdown();
+        private void LoadSettings()
+        {
+            var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            var partnerIp = LoadParam(config, "LastPartnerIp") ?? String.Empty;
+            tbxPartnerIp.Text = partnerIp;
 
-                if (d_SendStream != null)
-                    d_SendStream.Dispatcher.InvokeShutdown();
+            var audioInName = LoadParam(config, "LastAudioInDevice") ?? String.Empty;
+            var inDevice = AudioInDeviceList.First(d => d.Name == audioInName);
+            var i = AudioInDeviceList.IndexOf(inDevice);
+            if (i >= 0)
+                cbAudioInDevices.SelectedIndex = i;
 
-                if (m_pAudioInRTP != null)
-                    m_pAudioInRTP.Dispose();
+            var audioOutName = LoadParam(config, "LastAudioOutDevice") ?? String.Empty;
+            var outDevice = AudioOutDeviceList.First(d => d.Name == audioOutName);
+            i = AudioOutDeviceList.IndexOf(outDevice);
+            if (i >= 0)
+                cbAudioOutDevices.SelectedIndex = i;
 
-                if (m_pSendStream != null)
-                    m_pSendStream.Close();
+            var samplesPerSecond = LoadParam(config, "SamplesPerSecond") ?? String.Empty;
+            int.TryParse(samplesPerSecond, out _samplesPerSecond);
+            if (_samplesPerSecond < 8000 || _samplesPerSecond > 48000)
+                _samplesPerSecond = 44100;
 
-                if (m_pAudioOut != null)
-                    m_pAudioOut.Dispose();
+            var bitsPerSample = LoadParam(config, "BitsPerSample") ?? String.Empty;
+            int.TryParse(bitsPerSample, out _bitsPerSample);
+            if (_bitsPerSample != 8 || _bitsPerSample != 16)
+                _bitsPerSample = 16;
 
-                if (m_pRtpSession != null)
-                    m_pRtpSession.Dispose();
+            var portDifference = LoadParam(config, "PortDifference") ?? String.Empty;
+            int.TryParse(portDifference, out _portDifference);
+            if (_portDifference < 0)
+                _portDifference = 500;
 
-                StopMessageServer();
-                            
-                               
-            };
+            var basePort = LoadParam(config, "PortBase") ?? String.Empty;
+            int.TryParse(basePort, out _portBase);
+            if (_portBase < 0 || _portBase < 2000 + _portDifference)    // 2000 because of large amount of reserved ports in this range
+                _portBase = 10500;
+
+            _selectedCodec = LoadParam(config, "Codec") ?? String.Empty;
         }
 
         /// <summary>
@@ -189,10 +214,6 @@ namespace milskype
 
             var ipParts = tbxPartnerIp.Text.Split('.').
                 Select(t => Byte.Parse(t));
-            //var device = WaveIn.Devices.First();
-            //_soundSender = new SoundSender(new IPEndPoint(new IPAddress(ipParts.ToArray()), 15001), new WaveIn(device, 22500, 16, 1, 1024));
-            // работа на себя
-          //  _soundSender = new SoundSender(new IPEndPoint(cbLocalIp.SelectedItem as IPAddress, 15001), new WaveIn(device, 22500, 16, 1, 1024));
         }
 
         #region Handlers
@@ -245,18 +266,27 @@ namespace milskype
             else
             {
                 m_IsRunning = true;
-                m_pActiveCodec = new PCMA();
-                
-                var selectedOutDevice = cbAudioOutDevices.SelectedItem as AudioOutDevice;
-                m_pWaveOut = new AudioOut(selectedOutDevice, 8000, 16, 1);
 
+                switch (_selectedCodec)
+                {
+                    case "PCMU":
+                        m_pActiveCodec = new PCMU();
+                        break;
+                    case "PCMA":
+                    default:
+                        m_pActiveCodec = new PCMA();
+                        break;
+                }
+
+                var selectedOutDevice = cbAudioOutDevices.SelectedItem as AudioOutDevice;
+                m_pWaveOut = new AudioOut(selectedOutDevice, _samplesPerSecond, _bitsPerSample, 1); // 1 - one channel (mono)
                 m_pRtpSession = new RTP_MultimediaSession(RTP_Utils.GenerateCNAME());
 
                 string localIp = cbLocalIp.SelectedItem.ToString();
                 string partnerIp = tbxPartnerIp.Text;
                 int k = string.Compare(localIp, partnerIp);
 
-                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)10000 + k * 500/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/11000 + k * 500 + 1), new RTP_Clock(0, 8000));
+                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)10000 + k * 500/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/11000 + k * 500 + 1), new RTP_Clock(0, _samplesPerSecond));
                 m_pRtpSession.Sessions[0].AddTarget(new RTP_Address(IPAddress.Parse(tbxPartnerIp.Text), (int)/*m_pRemotePort.Value*/10000 - k * 500, (int)/*m_pRemotePort.Value*/10000 - k * 500 + 1));
                 m_pRtpSession.Sessions[0].NewSendStream += new EventHandler<RTP_SendStreamEventArgs>(m_pRtpSession_NewSendStream);
                 m_pRtpSession.Sessions[0].NewReceiveStream += new EventHandler<RTP_ReceiveStreamEventArgs>(m_pRtpSession_NewReceiveStream);
@@ -270,7 +300,55 @@ namespace milskype
                 
         }
 
+        private void wndMain_Closing_1(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            SaveParam(config, "LastPartnerIp", tbxPartnerIp.Text);
+            SaveParam(config, "LastAudioInDevice", (cbAudioInDevices.SelectedValue as AudioInDevice).Name);
+            SaveParam(config, "LastAudioOutDevice", (cbAudioOutDevices.SelectedValue as AudioOutDevice).Name);
+            SaveParam(config, "SamplesPerSecond", _samplesPerSecond.ToString());
+
+            config.Save();
+
+            //StopSoundReceiver();
+            // StopSoundSender();
+            if (d_RecieveStream != null)
+                d_RecieveStream.Dispatcher.InvokeShutdown();
+
+            if (d_SendStream != null)
+                d_SendStream.Dispatcher.InvokeShutdown();
+
+            if (m_pAudioInRTP != null)
+                m_pAudioInRTP.Dispose();
+
+            if (m_pSendStream != null)
+                m_pSendStream.Close();
+
+            if (m_pAudioOut != null)
+                m_pAudioOut.Dispose();
+
+            if (m_pRtpSession != null)
+                m_pRtpSession.Dispose();
+
+            StopMessageServer(); 
+        }
+
         #endregion
+
+        private void SaveParam(Configuration config, string key, string value)
+        {
+            if (config.AppSettings.Settings[key] == null)
+                config.AppSettings.Settings.Add(key, value);
+            else
+                config.AppSettings.Settings[key].Value = value;
+        }
+
+        private string LoadParam(Configuration config, string key)
+        {
+            var param = config.AppSettings.Settings[key];
+            return param != null ? 
+                param.Value : null;
+        }
 
         #region method m_pRtpSession_NewReceiveStream
 
