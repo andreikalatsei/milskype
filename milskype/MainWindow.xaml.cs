@@ -101,52 +101,62 @@ namespace milskype
 
         private void LoadSettings()
         {
-            Configuration config = null;
             try
             {
-                config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+                var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+
+                if (config.HasFile)
+                {
+                    var partnerIp = LoadParam(config, "LastPartnerIp") ?? String.Empty;
+                    tbxPartnerIp.Text = partnerIp;
+
+                    var audioInName = LoadParam(config, "LastAudioInDevice") ?? String.Empty;
+                    var inDevice = AudioInDeviceList.FirstOrDefault(d => d.Name == audioInName);
+                    var i = AudioInDeviceList.IndexOf(inDevice);
+                    if (i >= 0)
+                        cbAudioInDevices.SelectedIndex = i;
+
+                    var audioOutName = LoadParam(config, "LastAudioOutDevice") ?? String.Empty;
+                    var outDevice = AudioOutDeviceList.FirstOrDefault(d => d.Name == audioOutName);
+                    i = AudioOutDeviceList.IndexOf(outDevice);
+                    if (i >= 0)
+                        cbAudioOutDevices.SelectedIndex = i;
+
+                    var samplesPerSecond = LoadParam(config, "SamplesPerSecond") ?? String.Empty;
+                    int.TryParse(samplesPerSecond, out _samplesPerSecond);
+                    if (_samplesPerSecond < 8000 || _samplesPerSecond > 48000)
+                        _samplesPerSecond = 44100;
+
+                    var bitsPerSample = LoadParam(config, "BitsPerSample") ?? String.Empty;
+                    int.TryParse(bitsPerSample, out _bitsPerSample);
+                    if (_bitsPerSample != 8 || _bitsPerSample != 16)
+                        _bitsPerSample = 16;
+
+                    var portDifference = LoadParam(config, "PortDifference") ?? String.Empty;
+                    int.TryParse(portDifference, out _portDifference);
+                    if (_portDifference < 1)
+                        _portDifference = 500;
+
+                    var basePort = LoadParam(config, "PortBase") ?? String.Empty;
+                    int.TryParse(basePort, out _portBase);
+                    if (_portBase < 2000 + _portDifference)    // 2000 because of large amount of reserved ports in this range
+                        _portBase = 10500;
+
+                    _selectedCodec = LoadParam(config, "Codec") ?? String.Empty;
+                }
+                // There is no .config file
+                else
+                {
+                    _samplesPerSecond = 44100;
+                    _bitsPerSample = 16;
+                    _portDifference = 500;
+                    _portBase = 10500;
+                }
             }
-            catch (Exception exc)
+            catch (ConfigurationErrorsException exc)
             {
                 MessageBox.Show(exc.Message);
             }
-
-            var partnerIp = LoadParam(config, "LastPartnerIp") ?? String.Empty;
-            tbxPartnerIp.Text = partnerIp;
-
-            var audioInName = LoadParam(config, "LastAudioInDevice") ?? String.Empty;
-            var inDevice = AudioInDeviceList.First(d => d.Name == audioInName);
-            var i = AudioInDeviceList.IndexOf(inDevice);
-            if (i >= 0)
-                cbAudioInDevices.SelectedIndex = i;
-
-            var audioOutName = LoadParam(config, "LastAudioOutDevice") ?? String.Empty;
-            var outDevice = AudioOutDeviceList.First(d => d.Name == audioOutName);
-            i = AudioOutDeviceList.IndexOf(outDevice);
-            if (i >= 0)
-                cbAudioOutDevices.SelectedIndex = i;
-
-            var samplesPerSecond = LoadParam(config, "SamplesPerSecond") ?? String.Empty;
-            int.TryParse(samplesPerSecond, out _samplesPerSecond);
-            if (_samplesPerSecond < 8000 || _samplesPerSecond > 48000)
-                _samplesPerSecond = 44100;
-
-            var bitsPerSample = LoadParam(config, "BitsPerSample") ?? String.Empty;
-            int.TryParse(bitsPerSample, out _bitsPerSample);
-            if (_bitsPerSample != 8 || _bitsPerSample != 16)
-                _bitsPerSample = 16;
-
-            var portDifference = LoadParam(config, "PortDifference") ?? String.Empty;
-            int.TryParse(portDifference, out _portDifference);
-            if (_portDifference < 0)
-                _portDifference = 500;
-
-            var basePort = LoadParam(config, "PortBase") ?? String.Empty;
-            int.TryParse(basePort, out _portBase);
-            if (_portBase < 0 || _portBase < 2000 + _portDifference)    // 2000 because of large amount of reserved ports in this range
-                _portBase = 10500;
-
-            _selectedCodec = LoadParam(config, "Codec") ?? String.Empty;
         }
 
         /// <summary>
@@ -266,9 +276,11 @@ namespace milskype
 
         private void btnRestartConnection_Click_1(object sender, RoutedEventArgs e)
         {
-            // временное решение проблемы с отсутствием выбора IPs
             if (cbLocalIp.SelectedIndex < 0)
-                cbLocalIp.SelectedIndex = 0;
+            {
+                MessageBox.Show("Choose local IP");
+                return;
+            }
 
             IsConnected = true;
             InitializeClient();
