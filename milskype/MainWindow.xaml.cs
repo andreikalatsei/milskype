@@ -101,7 +101,16 @@ namespace milskype
 
         private void LoadSettings()
         {
-            var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            Configuration config = null;
+            try
+            {
+                config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+
             var partnerIp = LoadParam(config, "LastPartnerIp") ?? String.Empty;
             tbxPartnerIp.Text = partnerIp;
 
@@ -174,16 +183,26 @@ namespace milskype
         {
             StopMessageServer();
 
-            // TODO: create config file
-            _server = new Server<string>(cbLocalIp.SelectedItem as IPAddress, 15000, _client);
-
-            _server.ObjectsChanged += (s, e) =>
+            // TODO: add message port to config file
+            try
             {
-                Dispatcher.BeginInvoke((Action)(() =>
+                _server = new Server<string>(cbLocalIp.SelectedItem as IPAddress, 15000, _client);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("Невозможно установить соединение: неверный IP и/или занят порт\n" + exc.Message);
+            }
+
+            if (_server != null)
+            {
+                _server.ObjectsChanged += (s, e) =>
                 {
-                    History.Add(_server.Objects.Last());
-                }));
-            };
+                    Dispatcher.BeginInvoke((Action)(() =>
+                    {
+                        History.Add(_server.Objects.Last());
+                    }));
+                };
+            }
         }
 
         private void InitializeClient()
@@ -247,6 +266,10 @@ namespace milskype
 
         private void btnRestartConnection_Click_1(object sender, RoutedEventArgs e)
         {
+            // временное решение проблемы с отсутствием выбора IPs
+            if (cbLocalIp.SelectedIndex < 0)
+                cbLocalIp.SelectedIndex = 0;
+
             IsConnected = true;
             InitializeClient();
             InitializeServer();
@@ -345,9 +368,14 @@ namespace milskype
 
         private string LoadParam(Configuration config, string key)
         {
-            var param = config.AppSettings.Settings[key];
-            return param != null ? 
-                param.Value : null;
+            string result = null;
+            if (config != null)
+            {
+                var param = config.AppSettings.Settings[key];
+                result = param != null ?
+                    param.Value : null;
+            }
+            return result;
         }
 
         #region method m_pRtpSession_NewReceiveStream
