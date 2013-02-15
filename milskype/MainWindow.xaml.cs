@@ -258,9 +258,7 @@ namespace milskype
             m_pSession = m_pRtpSession.Sessions[0];
             if (m_pAudioInRTP == null)
             {
-                m_pSendStream = m_pSession.CreateSendStream();
-
-               
+                m_pSendStream = m_pSession.CreateSendStream();               
             }
             else
             {
@@ -331,8 +329,7 @@ namespace milskype
                 m_pAudioCodecs = new Dictionary<int, AudioCodec>();
                 m_pAudioCodecs.Add(0, new PCMU());
                 m_pAudioCodecs.Add(8, new PCMA());
-            }
-                
+            }                
         }
 
         private void wndMain_Closing_1(object sender, System.ComponentModel.CancelEventArgs e)
