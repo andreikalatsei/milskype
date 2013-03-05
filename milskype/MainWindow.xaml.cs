@@ -319,7 +319,7 @@ namespace milskype
                 string partnerIp = tbxPartnerIp.Text;
                 int k = string.Compare(localIp, partnerIp);
 
-                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)10000 + k * 500/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/11000 + k * 500 + 1), new RTP_Clock(0, _samplesPerSecond));
+                m_pRtpSession.CreateSession(new RTP_Address(IPAddress.Parse(cbLocalIp.SelectedItem.ToString()), (int)10000 + k * 500/*m_pLocalPort.Value*/, (int)/*m_pLocalPort.Value*/10000 + k * 500 + 1), new RTP_Clock(0, _samplesPerSecond));
                 m_pRtpSession.Sessions[0].AddTarget(new RTP_Address(IPAddress.Parse(tbxPartnerIp.Text), (int)/*m_pRemotePort.Value*/10000 - k * 500, (int)/*m_pRemotePort.Value*/10000 - k * 500 + 1));
                 m_pRtpSession.Sessions[0].NewSendStream += new EventHandler<RTP_SendStreamEventArgs>(m_pRtpSession_NewSendStream);
                 m_pRtpSession.Sessions[0].NewReceiveStream += new EventHandler<RTP_ReceiveStreamEventArgs>(m_pRtpSession_NewReceiveStream);
